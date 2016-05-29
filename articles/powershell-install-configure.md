@@ -70,7 +70,7 @@ Install Azure PowerShell 1.3.0 or greater from the PowerShell Gallery using an e
 
 ####More about these commands
 
-- **Install-Module AzureRM** installs a rollup module for the Azure Resource Manager cmdlets. The AzureRM module module depends on a particular version range for each Azure Resource Manager module. The included version range assures that no breaking module changes can be included when installing AzureRM modules with the same major version. When you install the AzureRM module, any Azure Resource Manager module that has not previously been installed will be downloaded and installed from the PowerShell Gallery. For more information on the semantic versioning used by Azure PowerShell modules, see [semver.org](http://semver.org). 
+- **Install-Module AzureRM** installs a rollup module for the Azure Resource Manager cmdlets. The AzureRM module depends on a particular version range for each Azure Resource Manager module. The included version range assures that no breaking module changes can be included when installing AzureRM modules with the same major version. When you install the AzureRM module, any Azure Resource Manager module that has not previously been installed will be downloaded and installed from the PowerShell Gallery. For more information on the semantic versioning used by Azure PowerShell modules, see [semver.org](http://semver.org). 
 - **Install-Module Azure** installs the Azure module. This module is the Service Management module from Azure PowerShell 0.9.x. This should have no major changes and be interchangeable for the previous version of the Azure module.
 
 ## Step 2: Start
